@@ -11,9 +11,9 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Oktay1</a>
+          Welcome to <a href="https://nextjs.org">Oktay Ata</a>
         </h1>
-        <h3>{dayjs().format('DD/MM/YYYY')}</h3>
+        <h3>{dayjs('02/08/2012').format('DD/MM/YYYY')}  </h3>
 
         <p className={styles.description}>
           Get started by editing{' '}
